@@ -1,0 +1,270 @@
+.login-container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-box {
+    background-color: #000000; /* Black background for the logo */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Changed from fixed to relative */
+    width: 500px; /* Width of the logo box */
+    height: 550px; /* Height of the logo box */
+    z-index: 100; /* Ensure it's above other content */
+    margin-right: 0; /* Removed space between logo box and login box */
+}
+.login-box {
+    background-color: #ffffff; /* White background color */
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #000000; /* Black border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    width: 500px; /* Width of the login box */
+    height: 550px; /* Height of the login box */
+    position: relative; /* Ensure relative positioning to position text container */
+}
+
+.footer-text {
+    position: absolute; /* Absolute positioning */
+    bottom: 10px; /* Distance from the bottom of the login box */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    text-align: center; /* Center text within the container */
+    font-size: 12px; /* Font size for the text */
+    color: #000000; /* Text color */
+}
+
+.footer-text p {
+    margin: 0; /* Remove default margin */
+}
+
+.footer-text a {
+    color: #F0A500; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-text a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+.logo-img {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Maintain aspect ratio */
+    margin-top: 100px; /* Removed space above the logo image */
+    margin-bottom: 0; /* Reduced space below the logo image */
+}
+
+.logo-text {
+    color: #ffffff; /* Default text color for logo text */
+    font-size: 24px; /* Default font size */
+    font-weight: bold;
+    margin-top: 0; /* Removed space above logo text */
+    text-align: center;
+}
+
+.logo-text-container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    margin-bottom: 0; /* Removed space below the logo text container */
+    flex-direction: row;
+}
+
+.logo-text.top {
+    color: #ffffff; /* White color for "TOP" */
+    font-size: 65px;
+    margin-bottom: 0;
+    padding: 0.5rem;
+}
+.logo-text.drive {
+    color: #F0A500; /* Yellow color for "DRIVE" */
+    font-size: 65px;
+   
+}
+
+.large-text {
+    color: #F0A500; /* Custom font color for this text */
+    font-size: 20px; /* Custom font size */
+}
+
+.small-text {
+    color: #F0A500; /* Custom font color for this text */
+    font-size: 15px; /* Custom font size */
+}
+
+.logo-text.driving {
+    color: #F0A500; /* Yellow color for "DRIVE" */
+    font-size: 15px;
+    margin-bottom: 50%;
+    
+}
+
+.logo-text.number {
+    color: #ffffff; /* White color for numbers */
+    font-size: 15px;
+    margin-bottom: 50%;
+}
+.logo-text {
+    margin: 0;
+    padding: 0;
+  }
+.logo-text.masters {
+    color: #F0A500; /* Yellow color for "MASTER" */
+    font-size: 15px;
+    margin-bottom: 50%;
+}
+
+.logo-text.TDDI {
+    font-size: 12px;
+    color: #ffffff; /* Adjust as needed */
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.logo-text.agree {
+    color: #000000; 
+   font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 20%;
+    font-weight: normal;
+}
+
+.logo-text.service {
+    color: #F0A500; 
+    font-size: 12px;
+    padding: 0.2rem; 
+    margin-top: 20%;
+    font-weight: bold;  
+    
+}
+.logo-text.and {
+    color: #000000; 
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 0.2rem; 
+    margin-top: 20%;
+    font-weight: normal;
+}
+
+
+.logo-text.policy {
+    color: #F0A500; 
+    font-size: 12px;
+    padding: 0.2rem; 
+    margin-top: 20%;
+    font-weight: bold;
+}
+.terms {
+    font-size: 15px;
+    color: #ffffff; /* Adjust as needed */
+}
+.hello {
+    margin-top: 5%;
+    font-size: 45px;
+    color: #000000; /* Adjust as needed */
+    font-weight: normal; /* Remove bold styling */
+}
+
+.credentials {
+    font-size: 15px;
+    color: #000000; /* Adjust as needed */
+    margin-bottom: 5%;
+    font-weight: normal; /* Remove bold styling */
+}
+
+h2, p {
+    text-align: center;
+    margin: 2; /* Removed margin from heading and paragraph */
+    margin-top: 30px;    
+
+}
+
+button {
+    width: 100%; /* Full width button */
+    height: 40px;
+    background-color: #F0A500; /* Yellow background color */
+    color: #ffffff; /* White text color */
+    margin-top: 10px;
+    border: none; /* Remove border if desired */
+    border-radius: 5px; /* Rounded corners for the button */
+    padding: 10px; /* Padding inside the button */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+button:hover {
+    background-color: #e09e4b; /* Slightly darker shade for hover effect */
+}
+
+button:focus {
+    outline: none; /* Remove default focus outline */
+}
+
+form {
+    margin-top: 0; /* Removed margin from the form */
+}
+
+.forgot-password-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
+.underline-text {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.logo-text-center terms {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    margin-bottom: 0; /* Removed space below the logo text container */
+}
+.password-input-wrapper {
+    position: relative; /* Set relative positioning for the container */
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure it takes up the full width */
+    max-width: 700px; /* Optional: Adjust as needed */
+}
+
+.form-control {
+    height: 40px; /* Ensure the input field is the same height as the button */
+    border-radius: 5px; /* Rounded corners for the input field */
+    border: 1px solid #ced4da; /* Default border color */
+    padding: 0 40px 0 10px; /* Adjust padding to make room for the icon */
+    flex: 1; /* Make the input take up remaining space */
+}
+
+.eye-icon {
+    position: absolute; /* Position the icon absolutely inside the input wrapper */
+    right: 10px; /* Adjust as needed to position it correctly */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    font-size: 18px; /* Adjust icon size */
+    color: #495057; /* Default color for the icon */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.input-group {
+    position: relative; /* Ensure positioning context for the icon */
+}
+
+.input-group-append {
+    margin-left: 0; /* Remove extra margin to ensure proper alignment */
+}
+
+
+  
+
+  
+  
